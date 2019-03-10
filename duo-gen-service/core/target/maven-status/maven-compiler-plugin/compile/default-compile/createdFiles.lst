@@ -1,0 +1,5 @@
+com/gen/duo/service/core/DAO/impl/UserDAOImpl.class
+com/gen/duo/service/core/DAO/impl/ItemDAOImpl.class
+com/gen/duo/service/core/App.class
+com/gen/duo/service/core/DAO/ItemDAO.class
+com/gen/duo/service/core/DAO/UserDAO.class

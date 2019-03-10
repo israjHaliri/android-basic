@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_category"
+            android:icon="@mipmap/categories"
+            android:title="Category" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_sketch"
+            android:icon="@mipmap/blue_sketch"
+            android:title="Sketch" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_orders"
+            android:icon="@mipmap/shoping_cart"
+            android:title="Orders" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_message"
+            android:icon="@mipmap/contact"
+            android:title="Message" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_profile"
+            android:icon="@mipmap/girl"
+            android:title="Profile" />
+    </group>
+
+    <item android:title="Action">
+        <menu>
+            <item
+                android:id="@+id/navigation_logout"
+                android:icon="@drawable/ic_menu_revert"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

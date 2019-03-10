@@ -1,0 +1,11 @@
+duo-gen-service-account/target/
+duo-gen-service-common/target/
+duo-gen-service-gateway/target/
+
+duo-gen-service-account/duo-gen-service-account.iml
+duo-gen-service-common/duo-gen-service-common.iml
+duo-gen-service-gateway/duo-gen-service-gateway.iml
+
+**/.DS_Store
+.idea/
+

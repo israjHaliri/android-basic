@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="com.gen.duo.app.fragment.CategoryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_ransel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@mipmap/bag"
+                android:padding="25dp"
+                android:text="Ransel" />
+
+            <Button
+                android:id="@+id/button_bros"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/wallet2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/wallet3"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@mipmap/bros"
+                android:padding="25dp"
+                android:text="Bros" />
+
+            <Button
+                android:id="@+id/button_busana_muslim"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@mipmap/clothes"
+                android:padding="25dp"
+                android:text="Busana Muslim" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_lain_lain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/wallet2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/wallet2"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@mipmap/merchand"
+                android:padding="25dp"
+                android:text="Lain Lain" />
+
+            <Button
+                android:id="@+id/button_slempang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/wallet6"
+                android:layout_toEndOf="@+id/wallet2"
+                android:layout_toRightOf="@+id/wallet2"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@mipmap/slempang"
+                android:padding="25dp"
+                android:text="Slempang" />
+
+            <Button
+                android:id="@+id/button_tempat_jarum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/wallet7"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/wallet5"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@mipmap/tempat_jarum"
+                android:padding="25dp"
+                android:text="Tempat Jarum" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_kalung"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignEnd="@+id/wallet4"
+                android:layout_alignRight="@+id/wallet4"
+                android:layout_below="@+id/wallet4"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@mipmap/kalung"
+                android:padding="25dp"
+                android:text="Kalung" />
+
+            <Button
+                android:id="@+id/button_pasmina"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@mipmap/hijab"
+                android:padding="25dp"
+                android:text="Pasmina" />
+
+            <Button
+                android:id="@+id/button_dompet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:drawableTop="@mipmap/wallet"
+                android:padding="25dp"
+                android:text="Dompet" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

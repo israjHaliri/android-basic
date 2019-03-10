@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DUOGEN</string>
+    <string name="username_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="no_account">No account yet? Create one</string>
+    <string name="agrement">Dengan ini anda menyetujui persyaratan yang berlaku</string>
+    <string name="keyword">Keywords</string>
+    <string name="me">israj haliri</string>
+    <string name="email">israj.haliri@gmail.com</string>
+
+    <string name="navigation_drawer_open">Menu opened</string>
+    <string name="navigation_drawer_close">Menu closed</string>
+
+    <string name="action_cart">Cart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="blank_fragment">Ops sorry this feature under development</string>
+</resources>
